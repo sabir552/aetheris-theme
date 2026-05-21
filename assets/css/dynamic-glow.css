@@ -1,0 +1,14 @@
+/* Dynamic Lighting Overlays and Advanced Custom Animations Layouts */
+@keyframes pulseGlow {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.05); }
+}
+
+.animate-pulse {
+    animation: pulseGlow 8s infinite ease-in-out;
+}
+
+/* Custom Gutenberg Layout Resets */
+.wp-block-post-content p {
+    margin-bottom: 1.5rem;
+}
